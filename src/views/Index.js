@@ -21,7 +21,7 @@ import React from "react";
 import { Container, Row } from "reactstrap";
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
+// import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
@@ -30,7 +30,7 @@ import Buttons from "./IndexSections/Buttons.js";
 import Inputs from "./IndexSections/Inputs.js";
 import CustomControls from "./IndexSections/CustomControls.js";
 import Menus from "./IndexSections/Menus.js";
-import Navbars from "./IndexSections/Navbars.js";
+// import Navbars from "./IndexSections/Navbars.js";
 import Tabs from "./IndexSections/Tabs.js";
 import Progress from "./IndexSections/Progress.js";
 import Pagination from "./IndexSections/Pagination.js";
@@ -55,7 +55,7 @@ class Index extends React.Component {
   render() {
     return (
       <>
-        <DemoNavbar />
+        {/* <DemoNavbar /> */}
         <main ref="main">
           <Hero />
           <Buttons />
@@ -66,7 +66,7 @@ class Index extends React.Component {
               <Menus />
             </Container>
           </section>
-          <Navbars />
+          {/* <Navbars /> */}
           <section className="section section-components">
             <Container>
               <Tabs />

@@ -50,6 +50,9 @@ class Hero extends React.Component {
                       src={require("assets/img/brand/hydro-logo.png")}
                       style={{ width: "200px" }}
                     />
+                    <p className="lead text-white" style={{fontSize: "2rem"}}>
+                      Hydro.
+                    </p>
                     <p className="lead text-white">
                       A Hydration Monitoring System
                     </p>
