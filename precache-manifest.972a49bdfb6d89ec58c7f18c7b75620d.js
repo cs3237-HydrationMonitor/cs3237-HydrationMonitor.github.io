@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8cef62d8e6a3200145d1e426f43ecabc",
+    "revision": "17dd0e411632f93f33a3ba3cc61a5859",
     "url": "/argon-design-system-react/index.html"
   },
   {
-    "revision": "9a7ad2fd9cbcd42c640e",
+    "revision": "639e951b1cf16f1cb9bb",
     "url": "/argon-design-system-react/static/css/main.41d37d4d.chunk.css"
   },
   {
-    "revision": "2471049c906e33abd0ca",
-    "url": "/argon-design-system-react/static/js/2.c218f061.chunk.js"
+    "revision": "461b18d32030ba35c0f8",
+    "url": "/argon-design-system-react/static/js/2.0c5195e9.chunk.js"
   },
   {
     "revision": "c87aceef61157b36bcd24ce6ffb0299c",
-    "url": "/argon-design-system-react/static/js/2.c218f061.chunk.js.LICENSE.txt"
+    "url": "/argon-design-system-react/static/js/2.0c5195e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a7ad2fd9cbcd42c640e",
-    "url": "/argon-design-system-react/static/js/main.754232d4.chunk.js"
+    "revision": "639e951b1cf16f1cb9bb",
+    "url": "/argon-design-system-react/static/js/main.c71406f7.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/argon-design-system-react/static/js/main.754232d4.chunk.js.LICENSE.txt"
+    "url": "/argon-design-system-react/static/js/main.c71406f7.chunk.js.LICENSE.txt"
   },
   {
     "revision": "5f3fe34eec041ec0b2f0",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f38ddea9dedadea03c5d43c596dac13f",
     "url": "/argon-design-system-react/static/media/argon-react.f38ddea9.png"
+  },
+  {
+    "revision": "833c02abbd844558567ec9dca5e14357",
+    "url": "/argon-design-system-react/static/media/edited-bottle.833c02ab.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",

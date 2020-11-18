@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/argon-design-system-react/precache-manifest.736890ce7edaeaeab9d4ba15a154f7e3.js"
+  "/argon-design-system-react/precache-manifest.972a49bdfb6d89ec58c7f18c7b75620d.js"
 );
 
 self.addEventListener('message', (event) => {
