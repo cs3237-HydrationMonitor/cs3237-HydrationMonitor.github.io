@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row } from "reactstrap";
+import { Container, Row, Col, Media } from "reactstrap";
 
 // core components
 // import DemoNavbar from "components/Navbars/DemoNavbar.js";
@@ -58,6 +58,37 @@ class Index extends React.Component {
         {/* <DemoNavbar /> */}
         <main ref="main">
           <Hero />
+          <Container style={{marginTop: '60px'}}>
+            <Row>
+              <Col>
+                <p style={{ fontSize: '25px' }}>Hydro is a one-stop tool aimed and assisting you in monitoring hydration levels of those you care about.</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <Media src={require("../assets/img/brand/edited-bottle.png")} style={{ maxWidth: "80%" }} />
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <p style={{ fontSize: '25px' }}>Using our patented prototype,
+                we have tirelessly collected data and generated an Artificially Intelligent System to automatically track your
+                water consumption activities.</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <p style={{ fontSize: '25px' }}>All of your personal hydration counts are recorded
+                in real-time and seamlessly in our mobile app.</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <p style={{ fontSize: '25px' }}>From here you can easily see if your loved ones have been consuming
+                sufficient amounts of water and maintaining their health.</p>
+              </Col>
+            </Row>
+          </Container>
           <Buttons />
           <Inputs />
           <section className="section">
