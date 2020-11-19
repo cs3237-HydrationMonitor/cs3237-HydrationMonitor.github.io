@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d50b301410563a03850e264f4a6c281",
+    "revision": "06630c8e8f3e93df0217ed3554aadc2d",
     "url": "/index.html"
   },
   {
-    "revision": "c894346c665f6b002809",
+    "revision": "f52190ceb5a1e4a0d15b",
     "url": "/static/css/main.6b6bdf62.chunk.css"
   },
   {
-    "revision": "461b18d32030ba35c0f8",
-    "url": "/static/js/2.0c5195e9.chunk.js"
+    "revision": "9fd8ad688597559b03cb",
+    "url": "/static/js/2.1915b6ad.chunk.js"
   },
   {
     "revision": "c87aceef61157b36bcd24ce6ffb0299c",
-    "url": "/static/js/2.0c5195e9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1915b6ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c894346c665f6b002809",
-    "url": "/static/js/main.c71406f7.chunk.js"
+    "revision": "f52190ceb5a1e4a0d15b",
+    "url": "/static/js/main.f43b907c.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/static/js/main.c71406f7.chunk.js.LICENSE.txt"
+    "url": "/static/js/main.f43b907c.chunk.js.LICENSE.txt"
   },
   {
     "revision": "8aa3d7f9ac5e47205f7b",
@@ -64,8 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/google.87be59a1.svg"
   },
   {
+    "revision": "ee347c422748fdf730c9f4713ccc758b",
+    "url": "/static/media/hydro-home.ee347c42.png"
+  },
+  {
     "revision": "9aa8dce12b01a4962aa4a3ffbf50cbac",
     "url": "/static/media/hydro-logo.9aa8dce1.png"
+  },
+  {
+    "revision": "0e1d0c00a9db2481698c50b60d024b89",
+    "url": "/static/media/hydro-splash.0e1d0c00.png"
   },
   {
     "revision": "594b1ee1d95ada356eaad078e9217932",
