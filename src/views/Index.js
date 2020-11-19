@@ -116,17 +116,18 @@ class Index extends React.Component {
                 <h2 className="display-2" style={{ textAlign: 'center' }}>Start using Hydro Today!</h2>
               </Col>
             </Row>
+            <Row style={{ height: "400px" }}></Row>
           </Container>
-          <Buttons />
-          <Inputs />
-          <section className="section">
+          {/* <Buttons />
+          <Inputs /> */}
+          {/* <section className="section">
             <Container>
               <CustomControls />
               <Menus />
             </Container>
-          </section>
+          </section> */}
           {/* <Navbars /> */}
-          <section className="section section-components">
+          {/* <section className="section section-components">
             <Container>
               <Tabs />
               <Row className="row-grid justify-content-between align-items-center mt-lg">
@@ -143,13 +144,13 @@ class Index extends React.Component {
               <Datepicker />
               <TooltipPopover />
             </Container>
-          </section>
-          <Carousel />
+          </section> */}
+          {/* <Carousel />
           <Icons />
           <Login />
-          <Download />
+          <Download /> */}
         </main>
-        <CardsFooter />
+        {/* <CardsFooter /> */}
       </>
     );
   }
