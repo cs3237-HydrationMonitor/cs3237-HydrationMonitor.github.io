@@ -59,33 +59,61 @@ class Index extends React.Component {
         <main ref="main">
           <Hero />
           <Container style={{marginTop: '60px'}}>
-            <Row>
+          <Row>
               <Col>
-                <p style={{ fontSize: '25px' }}>Hydro is a one-stop tool aimed and assisting you in monitoring hydration levels of those you care about.</p>
+                <p style={{ fontSize: '25px', textAlign: 'center' }}>The human body is 60% water, and water plays an essential role in every bodily function. Water is essential not just for optimal day-to-day function, but ultimately for survival too. Most of us, if we’re honest, will own up to not drinking enough. To neglect hydration is to neglect your health, as often it can be severe and fatal.</p>
               </Col>
             </Row>
-            <Row>
+            <Row style={{ paddingTop: '50px' }}>
+              <Col>
+                <p style={{ fontSize: '25px', textAlign: 'center' }}>Minor consequences of dehydration include fatigue and foggy memory while the major consequences include possible heat injuries as well as possible development of kidney stones.</p>
+              </Col>
+            </Row>
+            <Row style={{ paddingTop: '50px' }}>
+              <Col>
+                <p style={{ fontSize: '25px', textAlign: 'center' }}>Drinking enough water ensures nutrients and oxygen transport into cells. This helps one to lose weight, have a healthier skin outlook, reduce the risk of cancer, etc.</p>
+              </Col>
+            </Row>
+            <Row style={{ paddingTop: '50px' }}>
+              <Col>
+                <p style={{ fontSize: '25px', textAlign: 'center' }}>Hydro is a one-stop tool aimed and assisting you in monitoring hydration levels of those you care about.</p>
+              </Col>
+            </Row>
+            <Row style={{ justifyContent: "center", alignContent: "center", alignItems: "center", alignSelf: "center"}}>
               <Col>
                 <Media src={require("../assets/img/brand/edited-bottle.png")} style={{ maxWidth: "80%" }} />
               </Col>
             </Row>
-            <Row>
+            <Row style={{ justifyContent: "center", alignContent: "center", alignItems: "center", alignSelf: "center"}}>
               <Col>
-                <p style={{ fontSize: '25px' }}>Using our patented prototype,
+                <Media src={require("../assets/img/brand/hydro-splash.png")} style={{ maxWidth: "80%" }} />
+              </Col>
+              <Col>
+                <Media src={require("../assets/img/brand/hydro-home.png")} style={{ maxWidth: "80%" }} />
+              </Col>
+            </Row>
+            <Row style={{ paddingTop: '100px' }}>
+              <Col>
+                <p style={{ fontSize: '25px', textAlign: 'center' }}>Using our patented prototype,
                 we have tirelessly collected data and generated an Artificially Intelligent System to automatically track your
                 water consumption activities.</p>
               </Col>
             </Row>
-            <Row>
+            <Row style={{ paddingTop: '50px' }}>
               <Col>
-                <p style={{ fontSize: '25px' }}>All of your personal hydration counts are recorded
+                <p style={{ fontSize: '25px', textAlign: 'center' }}>All of your personal hydration counts are recorded
                 in real-time and seamlessly in our mobile app.</p>
               </Col>
             </Row>
-            <Row>
+            <Row style={{ paddingTop: '50px' }}>
               <Col>
-                <p style={{ fontSize: '25px' }}>From here you can easily see if your loved ones have been consuming
+                <p style={{ fontSize: '25px', textAlign: 'center' }}>From here you can easily see if your loved ones have been consuming
                 sufficient amounts of water and maintaining their health.</p>
+              </Col>
+            </Row>
+            <Row style={{ paddingTop: '50px' }}>
+              <Col>
+                <h2 className="display-2" style={{ textAlign: 'center' }}>Start using Hydro Today!</h2>
               </Col>
             </Row>
           </Container>
